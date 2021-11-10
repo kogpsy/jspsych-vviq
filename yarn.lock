@@ -881,6 +881,16 @@
   resolved "https://registry.yarnpkg.com/@discoveryjs/json-ext/-/json-ext-0.5.5.tgz#9283c9ce5b289a3c4f61c12757469e59377f81f3"
   integrity sha512-6nFkfkmSeV/rqSaS4oWHgmpnYw194f6hmWF5is6b0J1naJZoiD0NTc9AiUwPHvWsowkjuHErCZT1wa0jg+BLIA==
 
+"@jspsych/plugin-html-keyboard-response@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@jspsych/plugin-html-keyboard-response/-/plugin-html-keyboard-response-1.0.0.tgz#19c737b86da0ce8a143b1a7ea48a5e8cc3a7513d"
+  integrity sha512-7+JyaQn0V32K0wSuWsp9NKmTNomPISjUy9ROH78l8n6MaCRVFVzIG2/t8lmxJcB6P5i4kCCay6Gh0oOldpjetQ==
+
+"@jspsych/plugin-survey-likert@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@jspsych/plugin-survey-likert/-/plugin-survey-likert-1.0.0.tgz#08e96b0fb10308c658b41837f320621347c41815"
+  integrity sha512-SYLXPyLTsY1xmNR2qtjQryZIx6WOOO7TuVi9PF4qeHjm11tdlqd7F9AEeEXMqDV+lZIyVVWDoh3vQxswoqsvGg==
+
 "@types/eslint-scope@^3.7.0":
   version "3.7.1"
   resolved "https://registry.yarnpkg.com/@types/eslint-scope/-/eslint-scope-3.7.1.tgz#8dc390a7b4f9dd9f1284629efce982e41612116e"
@@ -1091,6 +1101,11 @@ ansi-styles@^3.2.1:
   integrity sha512-VT0ZI6kZRdTh8YyJw3SMbYm/u+NqfsAxEpWO0Pf9sq8/e94WxxOpPKx9FR1FlyCtOVDNOQ+8ntlqFxiRc+r5qA==
   dependencies:
     color-convert "^1.9.0"
+
+auto-bind@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/auto-bind/-/auto-bind-4.0.0.tgz#e3589fc6c2da8f7ca43ba9f84fa52a744fc997fb"
+  integrity sha512-Hdw8qdNiqdJ8LqT0iK0sVzkFbzg6fhnQqqfWhBDxcHZvU75+B+ayzTy8x+k5Ix0Y92XOhOUlx74ps+bA6BeYMQ==
 
 babel-loader@^8.2.3:
   version "8.2.3"
@@ -1559,6 +1574,13 @@ json5@^2.1.2:
   integrity sha512-f+8cldu7X/y7RAJurMEJmdoKXGB/X550w2Nr3tTbezL6RwEE/iMcm+tZnXeoZtKuOq6ft8+CqzEkrIgx1fPoQA==
   dependencies:
     minimist "^1.2.5"
+
+jspsych@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/jspsych/-/jspsych-7.0.0.tgz#b63ff4618dc4a68404e8325e827d5c79cc23dac5"
+  integrity sha512-7b+A5WOHZUKpU2jg7aBNR/ngL2ORhSUeuOxoQM3dBu3Qt2uWV+ioT5UtS6GWYl0bA6u+1szhRun70a672EZ0rw==
+  dependencies:
+    auto-bind "^4.0.0"
 
 kind-of@^6.0.2:
   version "6.0.3"
