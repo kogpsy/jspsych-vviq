@@ -1,6 +1,6 @@
 # jspsych-vviq
 
-Items of the VVIQ questionnaire for experiments that run with jsPsych 7.
+Items of the VVIQ2 questionnaire for experiments that run with jsPsych 7.
 
 ## How to use in your project
 
@@ -43,6 +43,10 @@ import { itemsGerman } from 'jspsych-vviq';
 ### Styling
 
 Styling can be applied directly to the jsPsych classes as you would if you defined the items yourself. All the text elements which explain something are wrapped in a `<p></p>` paragraph tag.
+
+## VVIQ2
+
+TODO: What is it and who created it. The vividness of visual imagery questionnaire (VVIQ2; Marks, 1973, Marks, 1995).
 
 ## Development
 
