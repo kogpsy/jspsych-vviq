@@ -17,7 +17,12 @@ import { itemsGerman as vviqItemsGerman } from 'jspsych-vviq';
 
 timeline.push(vviqItemsGerman.instruction);
 timeline.push(vviqItemsGerman.itemBlock1);
+timeline.push(vviqItemsGerman.itemBlock2);
+timeline.push(vviqItemsGerman.itemBlock3);
+timeline.push(vviqItemsGerman.itemBlock4);
 ```
+
+You need jsPsych, of course, to be installed and initialized.
 
 ### Languages
 
@@ -34,6 +39,10 @@ For german use:
 ```javascript
 import { itemsGerman } from 'jspsych-vviq';
 ```
+
+### Styling
+
+Styling can be applied directly to the jsPsych classes as you would if you defined the items yourself. All the text elements which explain something are wrapped in a `<p></p>` paragraph tag.
 
 ## Development
 
