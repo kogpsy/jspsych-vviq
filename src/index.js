@@ -1,3 +1,1 @@
-import './styles/main.css';
-
-alert('connect-ed!');
+alert("connect-ed!");

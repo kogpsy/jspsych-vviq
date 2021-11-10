@@ -1,6 +1,6 @@
-# Vanilla JS Dev Toolchain Template
+# jspsych-vviq
 
-Including Webpack, Babel and Prettier.
+Items of the VVIQ questionnaire for experiments that run with jsPsych.
 
 ## How to use
 
