@@ -11,9 +11,10 @@
  * items in different languages.
  */
 
-// Import the german items
+// Import the getItems() function to gain access to the translated items
 import { getItems } from './items';
 
+// Generate items in all required languages
 const itemsGerman = getItems('german');
 const itemsEnglish = getItems('english');
 

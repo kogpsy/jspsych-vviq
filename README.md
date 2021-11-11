@@ -62,4 +62,14 @@ Then, to build a bundled version of your code, execute (your bundle will be crea
 $ yarn run build
 ```
 
+### Add languages
+
+To add more languages, three steps are necessary:
+
+1. Put the translated strings to `src/strings.json`
+2. Adjust the `getItems()` functin in `src/items.js` to respect the newly added language
+3. In `src/index.js`, generate a new set of items in the newly added language, and export this set
+
+### Publishing
+
 TODO: how to publish and stuff
