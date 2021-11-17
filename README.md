@@ -10,16 +10,12 @@ Install as a dependency:
 $ yarn add jspsych-vviq
 ```
 
-Then import the items in the required language and add them to the timeline
+Then import the VVIQ timeline in the required language and add it to your main timeline:
 
 ```javascript
-import { itemsGerman as vviqItemsGerman } from 'jspsych-vviq';
+import { vviqGerman } from 'jspsych-vviq';
 
-timeline.push(vviqItemsGerman.instruction);
-timeline.push(vviqItemsGerman.itemBlock1);
-timeline.push(vviqItemsGerman.itemBlock2);
-timeline.push(vviqItemsGerman.itemBlock3);
-timeline.push(vviqItemsGerman.itemBlock4);
+timeline.push(vviqGerman);
 ```
 
 You need jsPsych, of course, to be installed and initialized.
@@ -31,13 +27,13 @@ At the moment, the items are available in english and german.
 For english use:
 
 ```javascript
-import { itemsEnglish } from 'jspsych-vviq';
+import { vviqEnglish } from 'jspsych-vviq';
 ```
 
 For german use:
 
 ```javascript
-import { itemsGerman } from 'jspsych-vviq';
+import { vviqGerman } from 'jspsych-vviq';
 ```
 
 ### Styling
@@ -67,8 +63,8 @@ $ yarn run build
 To add more languages, three steps are necessary:
 
 1. Put the translated strings to `src/strings.json`
-2. Adjust the `getItems()` functin in `src/items.js` to respect the newly added language
-3. In `src/index.js`, generate a new set of items in the newly added language, and export this set
+2. Adjust the `getTimeline()` functin in `src/timeline.js` to respect the newly added language
+3. In `src/index.js`, generate a new timeline in the newly added language, and export it
 
 ### Publishing
 

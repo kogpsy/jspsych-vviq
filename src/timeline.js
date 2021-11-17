@@ -7,8 +7,8 @@
  * This project aims to deliver a version of the VVIQ questionnaire (as proposed
  * by Marks, 1973) which can be used in a jsPsych experiment.
  *
- * This file uses strings from './strings.json' to generate VVIQ items in
- * different languages.
+ * This file uses strings from './strings.json' to generate a jsPsych timeline
+ * containing VVIQ items in different languages.
  */
 
 // Import the necessary jsPsych plugins
@@ -17,8 +17,8 @@ import HtmlKeyboardResponsePlugin from '@jspsych/plugin-html-keyboard-response';
 // Import the strings in different languages
 import stringsMultilingual from './strings.json';
 
-// Generate the jsPsych trial objects based on the requested language
-export const getItems = (language) => {
+// Generate the jsPsych timeline based on the requested language
+export const getTimeline = (language) => {
   // Default to english items
   let strings = stringsMultilingual.english;
   // If the specified language is german, then use german items
@@ -154,12 +154,8 @@ export const getItems = (language) => {
     ],
   };
 
-  // Return an object containing all items (as jsPsych trials)
+  // Return a jsPsych timeline object
   return {
-    instruction,
-    itemBlock1,
-    itemBlock2,
-    itemBlock3,
-    itemBlock4,
+    timeline: [instruction, itemBlock1, itemBlock2, itemBlock3, itemBlock4],
   };
 };

@@ -11,15 +11,15 @@
  * items in different languages.
  */
 
-// Import the getItems() function to gain access to the translated items
-import { getItems } from './items';
+// Import the getTimeline() function to gain access to the translated timelines
+import { getTimeline } from './timeline';
 
 // Generate items in all required languages
-const itemsGerman = getItems('german');
-const itemsEnglish = getItems('english');
+const vviqGerman = getTimeline('german');
+const vviqEnglish = getTimeline('english');
 
 // Export everything
 module.exports = {
-  itemsGerman,
-  itemsEnglish,
+  vviqGerman,
+  vviqEnglish,
 };
