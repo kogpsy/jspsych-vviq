@@ -25,5 +25,8 @@
   "scripts": {
     "build": "rollup --config",
     "fmt": "prettier --write ."
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
