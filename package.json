@@ -1,22 +1,21 @@
 {
-  "name": "jspsych-vviq",
-  "version": "0.1.0",
-  "main": "src/index.js",
+  "name": "@kogpsy/jspsych-vviq",
+  "version": "1.0.0",
+  "main": "dist/jspsych-vviq.js",
   "author": "Robin Bürkli <robuba.jr@gmx.ch>",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "files": [
-    "build"
+    "dist"
   ],
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.0",
+    "@rollup/plugin-json": "^4.1.0",
     "babel-loader": "^8.2.3",
     "css-loader": "^6.5.0",
     "prettier": "2.4.1",
-    "style-loader": "^3.3.1",
-    "webpack": "^5.61.0",
-    "webpack-cli": "^4.9.1"
+    "rollup": "^2.62.0"
   },
   "dependencies": {
     "@jspsych/plugin-html-keyboard-response": "^1.0.0",
@@ -24,6 +23,7 @@
     "jspsych": "^7.0.0"
   },
   "scripts": {
-    "build": "webpack"
+    "build": "rollup --config",
+    "fmt": "prettier --write ."
   }
 }

@@ -15,11 +15,5 @@
 import { getTimeline } from './timeline';
 
 // Generate items in all required languages
-const vviqGerman = getTimeline('german');
-const vviqEnglish = getTimeline('english');
-
-// Export everything
-module.exports = {
-  vviqGerman,
-  vviqEnglish,
-};
+export const vviqGerman = getTimeline('german');
+export const vviqEnglish = getTimeline('english');
