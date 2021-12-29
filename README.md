@@ -2,6 +2,8 @@
 
 Items of the VVIQ2 questionnaire for experiments that run with jsPsych 7.
 
+At the moment there are 16 of the total of 32 items available. The rest of them will be added soon.
+
 ## How to use in your project
 
 Install as a dependency:
@@ -42,7 +44,7 @@ Styling can be applied directly to the jsPsych classes as you would if you defin
 
 ## VVIQ2
 
-TODO: What is it and who created it. The vividness of visual imagery questionnaire (VVIQ2; Marks, 1973, Marks, 1995).
+The VVIQ2 (Marks, 1995) is the successor of the VVIQ (Marks, 1973) with a reversed scale and more items. It aims to measure the vividness and liveliness of mental images.
 
 ## Development
 
@@ -65,7 +67,3 @@ To add more languages, three steps are necessary:
 1. Put the translated strings to `src/strings.json`
 2. Adjust the `getTimeline()` functin in `src/timeline.js` to respect the newly added language
 3. In `src/index.js`, generate a new timeline in the newly added language, and export it
-
-### Publishing
-
-TODO: how to publish and stuff
