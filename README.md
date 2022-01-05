@@ -1,15 +1,21 @@
 # jspsych-vviq
 
-Items of the VVIQ2 questionnaire for experiments that run with jsPsych 7.
+Items of the VVIQ questionnaire for experiments that run with jsPsych 7.
 
 At the moment there are 16 of the total of 32 items available. The rest of them will be added soon.
+
+## VVIQ
+
+The VVIQ2 (Marks, 1995; as proposed by McKelvie, 1995) is the successor of the VVIQ (Marks, 1973) with some adjustments. Most importantly, 16 more items are added, and the scale has been reversed, so that lower numbers correspond to lower vividness. The tool aims to measure vividness of mental images.
+
+There are, as stated above, different versions of the VVIQ. In addition, some researchers use the VVIQ version 1, but with reversed scale, some use the VVIQ version 2, but only 16 items of it. This package aims to provide the VVIQ2, but gives you the option to just use certain item blocks. The instructions have been adapted to better fit the web-based questionnaire format.
 
 ## How to use in your project
 
 Install as a dependency:
 
 ```console
-$ yarn add jspsych-vviq
+$ yarn add @kogpsy/jspsych-vviq
 ```
 
 Then import the VVIQ timeline in the required language and add it to your main timeline:
@@ -40,11 +46,13 @@ import { vviqGerman } from '@kogpsy/jspsych-vviq';
 
 ### Styling
 
-Styling can be applied directly to the jsPsych classes as you would if you defined the items yourself. All the text elements which explain something are wrapped in a `<p></p>` paragraph tag.
+You can apply your own css styles to the elements.
 
-## VVIQ2
-
-The VVIQ2 (Marks, 1995) is the successor of the VVIQ (Marks, 1973) with a reversed scale and more items. It aims to measure the vividness and liveliness of mental images.
+- All text - except for the rating scale labels - is usually wrapped in `<p>` tags.
+- The main instruction is further wrapped in a div with the css class `jspsych-instruction-main`.
+- The block instructions are wrapped in a div with the css class `jspsych-instruction-block`.
+- The rating scale labels are wrapped in a div with the css class `jspsych-scalelabel`,
+- The continue button label is wrapped in a div with the css class `jspsych-buttonlabel`.
 
 ## Development
 
