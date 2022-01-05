@@ -10,7 +10,7 @@
  * This file contains all strings in english.
  */
 
-export const stringsEnglish = {
+export const stringsGerman = {
   // Main instruction
   instructionGeneral: `<div class="vviq-instruction-main">
   <p>
