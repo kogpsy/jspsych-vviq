@@ -9,18 +9,14 @@
     "dist"
   ],
   "devDependencies": {
-    "@babel/core": "^7.16.0",
-    "@babel/preset-env": "^7.16.0",
     "@rollup/plugin-json": "^4.1.0",
-    "babel-loader": "^8.2.3",
-    "css-loader": "^6.5.0",
-    "prettier": "2.4.1",
-    "rollup": "^2.62.0"
+    "prettier": "2.5.1",
+    "rollup": "^2.63.0"
   },
-  "dependencies": {
-    "@jspsych/plugin-html-keyboard-response": "^1.0.0",
-    "@jspsych/plugin-survey-likert": "^1.0.0",
-    "jspsych": "^7.0.0"
+  "peerDependencies": {
+    "@jspsych/plugin-html-keyboard-response": "^1.1.0",
+    "@jspsych/plugin-survey-likert": "^1.1.0",
+    "jspsych": "^7.1.2"
   },
   "scripts": {
     "build": "rollup --config",
