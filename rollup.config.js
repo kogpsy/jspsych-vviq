@@ -10,6 +10,10 @@ export default [
         format: 'es',
       },
     ],
+    external: [
+      '@jspsych/plugin-survey-likert',
+      '@jspsych/plugin-html-keyboard-response',
+    ],
     plugins: [json()],
   },
 ];
