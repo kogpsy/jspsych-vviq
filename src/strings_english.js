@@ -39,10 +39,7 @@ export const stringsEnglish = {
     that it is not necessarily desirable to experience imagery or, if you do, to
     have more vivid imagery.
   </p>
-  <p>
-    If you are ready, press <strong>[ space ]</strong> to start the first
-    questionnaire.
-  </p>
+  <p>If you are ready, press <strong>[ space ]</strong> to start.</p>
 </div>
 `,
 
