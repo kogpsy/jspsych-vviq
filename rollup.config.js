@@ -2,7 +2,7 @@ import json from '@rollup/plugin-json';
 
 export default [
   {
-    input: 'src/index.js',
+    input: 'src/lib.js',
     output: [
       {
         name: 'jspsych-vviq',
