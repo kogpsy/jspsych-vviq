@@ -15,12 +15,12 @@ $ yarn add jspsych-vviq
 Then import the VVIQ timeline in the required language and add it to your main timeline:
 
 ```javascript
-import { vviqGerman } from 'jspsych-vviq';
+import { vviqGerman } from '@kogpsy/jspsych-vviq';
 
 timeline.push(vviqGerman);
 ```
 
-You need jsPsych, of course, to be installed and initialized.
+You further need jsPsych to be installed and initialized, as well as the _HTMLKeyboardResponsePlugin_ and the _SurveyLikertPlugin_. These are peer dependencies of `@kogpsy/jspsych-vviq`
 
 ### Languages
 
@@ -29,13 +29,13 @@ At the moment, the items are available in english and german.
 For english use:
 
 ```javascript
-import { vviqEnglish } from 'jspsych-vviq';
+import { vviqEnglish } from '@kogpsy/jspsych-vviq';
 ```
 
 For german use:
 
 ```javascript
-import { vviqGerman } from 'jspsych-vviq';
+import { vviqGerman } from '@kogpsy/jspsych-vviq';
 ```
 
 ### Styling
