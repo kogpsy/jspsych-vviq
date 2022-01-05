@@ -55,7 +55,7 @@ export const stringsEnglish = {
   scale5: `<div class="vviq-scalelabel">Perfectly clear and as vivid as real seeing</div>`,
 
   // Continue button label
-  continueButtonLabel: `<div class="vviq-buttonlabel">Continue</div>`,
+  continueButtonLabel: `Continue`,
 
   // Item block 1
   instructionBlock1: `<div class="vviq-instruction-block">

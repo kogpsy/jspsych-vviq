@@ -48,8 +48,7 @@ You can apply your own css styles to the elements.
 - The main instruction is wrapped in a div with the css class `vviq-instruction-main`.
 - The block instructions are wrapped in a div with the css class `vviq-instruction-block`.
 - The single question instructions are wrapped in a div with the css class `vviq-question`.
-- The rating scale labels are wrapped in a div with the css class `vviq-scalelabel`,
-- The continue button label is wrapped in a div with the css class `vviq-buttonlabel`.
+- The rating scale labels are wrapped in a div with the css class `vviq-scalelabel`.
 
 ## Development
 
