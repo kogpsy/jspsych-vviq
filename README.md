@@ -2,6 +2,8 @@
 
 Items of the VVIQ questionnaire for experiments that run with jsPsych 7.
 
+[![npm version](https://badge.fury.io/js/@kogpsy%2Fjspsych-vviq.svg)](https://badge.fury.io/js/@kogpsy%2Fjspsych-vviq)
+
 ## VVIQ
 
 The VVIQ2 (Marks, 1995; as proposed by McKelvie, 1995) is the successor of the VVIQ (Marks, 1973) with some adjustments. Most importantly, 16 more items are added, and the scale has been reversed, so that lower numbers correspond to lower vividness. The tool aims to measure vividness of mental images.
