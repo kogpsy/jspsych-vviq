@@ -34,7 +34,7 @@ export const generateVviqTimeline = (language, items, instruction) => {
     // Throw an error if erroneus blocks are requested
     items.forEach((element) => {
       if (element > 8 || element < 1) {
-        throw 'You cannot request item blocks that do not exist. There are 8 blocks (nr. 1-8).';
+        throw 'jspsych-vviq: Error: You cannot request item blocks that do not exist. There are 8 blocks (nr. 1-8).';
       }
       // Copy the item array reference
       requestedItems = items;
