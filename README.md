@@ -10,7 +10,7 @@ The VVIQ2 (Marks, 1995; as proposed by McKelvie, 1995) is the successor of the V
 
 There are, as stated above, different versions of the VVIQ. In addition, some researchers use the VVIQ version 1, but with reversed scale, some use the VVIQ version 2, but only 16 items of it, so that the lines around the specific versions of the questionnaire become quite blurry.
 
-This package aims to provide the VVIQ2, including all 8 item blocks, but gives you the option to just use certain ones of them. The instructions have been adapted to better fit the web-based questionnaire format. Besides, since single item blocks can be used, the word 'finally' was removed from the last block of the questionnaire. In addition, the whole tool has been translated into german to take the first step towards a multilingual VVIQ.
+This package aims to provide the VVIQ2, including all 8 item blocks, but gives you the option to just use certain ones of them. The instructions have been adapted to better fit the web-based questionnaire format. Besides, since single item blocks can be used, the word 'finally' was removed from the last item block of the questionnaire. In addition, the whole tool has been translated into german to take the first step towards a multilingual VVIQ.
 
 ## How to use in your project
 
