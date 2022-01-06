@@ -27,9 +27,9 @@ import { stringsGerman } from './strings_german';
  * @returns A jsPsych timeline (which can be added to another timeline)
  */
 export const generateVviqTimeline = (
-  language: string,
-  items: Array<number>,
-  instruction: boolean
+  language?: string,
+  items?: Array<number>,
+  instruction?: boolean
 ) => {
   // Declare variable to hold requested items array reference copy
   let requestedItems;
