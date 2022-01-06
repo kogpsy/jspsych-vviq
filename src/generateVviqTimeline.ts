@@ -7,8 +7,8 @@
  * This project aims to deliver a version of the VVIQ questionnaire (as proposed
  * by Marks, 1973) which can be used in a jsPsych experiment.
  *
- * This file uses strings from './strings.json' to generate a jsPsych timeline
- * containing VVIQ items in different languages.
+ * This file contains the generator function which creates a jsPsych timeline
+ * based on parameters.
  */
 
 // Import the necessary jsPsych plugins

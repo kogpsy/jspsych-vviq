@@ -10,7 +10,9 @@
  * This file contains all strings in english.
  */
 
-export const stringsEnglish = {
+import { Language } from './types';
+
+export const stringsEnglish: Language = {
   // Main instruction
   instructionGeneral: `<div class="vviq-instruction-main">
   <p>
