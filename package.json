@@ -4,7 +4,6 @@
   "main": "dist/jspsych-vviq.js",
   "author": "Robin Bürkli <robuba.jr@gmx.ch>",
   "license": "MIT",
-  "private": false,
   "files": [
     "dist"
   ],
@@ -32,5 +31,5 @@
     "mental imagery",
     "imagery"
   ],
-  "dependencies": {}
+  "packageManager": "yarn@3.1.1"
 }
