@@ -18,8 +18,19 @@ import HtmlKeyboardResponsePlugin from '@jspsych/plugin-html-keyboard-response';
 import { stringsEnglish } from './strings_english';
 import { stringsGerman } from './strings_german';
 
-// Generate the jsPsych timeline based on the requested language
-export const generateVviqTimeline = (language, items, instruction) => {
+/**
+ * Generates your desired variant of the VVIQ.
+ *
+ * @param language The desired questionnaire language (default: 'english')
+ * @param items The item blocks to be included (default: [1,2,3,4,5,6,7,8])
+ * @param instruction Controls whether the main instruction is included or not
+ * @returns A jsPsych timeline (which can be added to another timeline)
+ */
+export const generateVviqTimeline = (
+  language: string,
+  items: Array<number>,
+  instruction: boolean
+) => {
   // Declare variable to hold requested items array reference copy
   let requestedItems;
   // Declare general instruction toggle boolean

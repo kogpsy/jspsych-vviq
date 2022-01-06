@@ -2,7 +2,7 @@ import ts from 'rollup-plugin-ts';
 
 export default [
   {
-    input: 'src/lib.js',
+    input: 'src/lib.ts',
     output: [
       {
         name: 'jspsych-vviq',
