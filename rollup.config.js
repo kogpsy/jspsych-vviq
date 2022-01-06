@@ -1,4 +1,4 @@
-import json from '@rollup/plugin-json';
+import ts from 'rollup-plugin-ts';
 
 export default [
   {
@@ -14,6 +14,6 @@ export default [
       '@jspsych/plugin-survey-likert',
       '@jspsych/plugin-html-keyboard-response',
     ],
-    plugins: [json()],
+    plugins: [ts()],
   },
 ];
