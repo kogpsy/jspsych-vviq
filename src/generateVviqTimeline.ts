@@ -90,10 +90,30 @@ export const generateVviqTimeline = (
       preamble: strings.instructionBlock1,
       button_label: strings.continueButtonLabel,
       questions: [
-        { prompt: strings.questionB1Q1, labels: scale, required: true },
-        { prompt: strings.questionB1Q2, labels: scale, required: true },
-        { prompt: strings.questionB1Q3, labels: scale, required: true },
-        { prompt: strings.questionB1Q4, labels: scale, required: true },
+        {
+          prompt: strings.questionB1Q1,
+          labels: scale,
+          required: true,
+          name: 'B1Q1',
+        },
+        {
+          prompt: strings.questionB1Q2,
+          labels: scale,
+          required: true,
+          name: 'B1Q2',
+        },
+        {
+          prompt: strings.questionB1Q3,
+          labels: scale,
+          required: true,
+          name: 'B1Q3',
+        },
+        {
+          prompt: strings.questionB1Q4,
+          labels: scale,
+          required: true,
+          name: 'B1Q4',
+        },
       ],
     });
   }
@@ -105,10 +125,30 @@ export const generateVviqTimeline = (
       preamble: strings.instructionBlock2,
       button_label: strings.continueButtonLabel,
       questions: [
-        { prompt: strings.questionB2Q1, labels: scale, required: true },
-        { prompt: strings.questionB2Q2, labels: scale, required: true },
-        { prompt: strings.questionB2Q3, labels: scale, required: true },
-        { prompt: strings.questionB2Q4, labels: scale, required: true },
+        {
+          prompt: strings.questionB2Q1,
+          labels: scale,
+          required: true,
+          name: 'B2Q1',
+        },
+        {
+          prompt: strings.questionB2Q2,
+          labels: scale,
+          required: true,
+          name: 'B2Q2',
+        },
+        {
+          prompt: strings.questionB2Q3,
+          labels: scale,
+          required: true,
+          name: 'B2Q3',
+        },
+        {
+          prompt: strings.questionB2Q4,
+          labels: scale,
+          required: true,
+          name: 'B2Q4',
+        },
       ],
     });
   }
@@ -120,10 +160,30 @@ export const generateVviqTimeline = (
       preamble: strings.instructionBlock3,
       button_label: strings.continueButtonLabel,
       questions: [
-        { prompt: strings.questionB3Q1, labels: scale, required: true },
-        { prompt: strings.questionB3Q2, labels: scale, required: true },
-        { prompt: strings.questionB3Q3, labels: scale, required: true },
-        { prompt: strings.questionB3Q4, labels: scale, required: true },
+        {
+          prompt: strings.questionB3Q1,
+          labels: scale,
+          required: true,
+          name: 'B3Q1',
+        },
+        {
+          prompt: strings.questionB3Q2,
+          labels: scale,
+          required: true,
+          name: 'B3Q2',
+        },
+        {
+          prompt: strings.questionB3Q3,
+          labels: scale,
+          required: true,
+          name: 'B3Q3',
+        },
+        {
+          prompt: strings.questionB3Q4,
+          labels: scale,
+          required: true,
+          name: 'B3Q4',
+        },
       ],
     });
   }
@@ -135,10 +195,30 @@ export const generateVviqTimeline = (
       preamble: strings.instructionBlock4,
       button_label: strings.continueButtonLabel,
       questions: [
-        { prompt: strings.questionB4Q1, labels: scale, required: true },
-        { prompt: strings.questionB4Q2, labels: scale, required: true },
-        { prompt: strings.questionB4Q3, labels: scale, required: true },
-        { prompt: strings.questionB4Q4, labels: scale, required: true },
+        {
+          prompt: strings.questionB4Q1,
+          labels: scale,
+          required: true,
+          name: 'B4Q1',
+        },
+        {
+          prompt: strings.questionB4Q2,
+          labels: scale,
+          required: true,
+          name: 'B4Q2',
+        },
+        {
+          prompt: strings.questionB4Q3,
+          labels: scale,
+          required: true,
+          name: 'B4Q3',
+        },
+        {
+          prompt: strings.questionB4Q4,
+          labels: scale,
+          required: true,
+          name: 'B4Q4',
+        },
       ],
     });
   }
@@ -150,10 +230,30 @@ export const generateVviqTimeline = (
       preamble: strings.instructionBlock5,
       button_label: strings.continueButtonLabel,
       questions: [
-        { prompt: strings.questionB5Q1, labels: scale, required: true },
-        { prompt: strings.questionB5Q2, labels: scale, required: true },
-        { prompt: strings.questionB5Q3, labels: scale, required: true },
-        { prompt: strings.questionB5Q4, labels: scale, required: true },
+        {
+          prompt: strings.questionB5Q1,
+          labels: scale,
+          required: true,
+          name: 'B5Q1',
+        },
+        {
+          prompt: strings.questionB5Q2,
+          labels: scale,
+          required: true,
+          name: 'B5Q2',
+        },
+        {
+          prompt: strings.questionB5Q3,
+          labels: scale,
+          required: true,
+          name: 'B5Q3',
+        },
+        {
+          prompt: strings.questionB5Q4,
+          labels: scale,
+          required: true,
+          name: 'B5Q4',
+        },
       ],
     });
   }
@@ -165,10 +265,30 @@ export const generateVviqTimeline = (
       preamble: strings.instructionBlock6,
       button_label: strings.continueButtonLabel,
       questions: [
-        { prompt: strings.questionB6Q1, labels: scale, required: true },
-        { prompt: strings.questionB6Q2, labels: scale, required: true },
-        { prompt: strings.questionB6Q3, labels: scale, required: true },
-        { prompt: strings.questionB6Q4, labels: scale, required: true },
+        {
+          prompt: strings.questionB6Q1,
+          labels: scale,
+          required: true,
+          name: 'B6Q1',
+        },
+        {
+          prompt: strings.questionB6Q2,
+          labels: scale,
+          required: true,
+          name: 'B6Q2',
+        },
+        {
+          prompt: strings.questionB6Q3,
+          labels: scale,
+          required: true,
+          name: 'B6Q3',
+        },
+        {
+          prompt: strings.questionB6Q4,
+          labels: scale,
+          required: true,
+          name: 'B6Q4',
+        },
       ],
     });
   }
@@ -180,10 +300,30 @@ export const generateVviqTimeline = (
       preamble: strings.instructionBlock7,
       button_label: strings.continueButtonLabel,
       questions: [
-        { prompt: strings.questionB7Q1, labels: scale, required: true },
-        { prompt: strings.questionB7Q2, labels: scale, required: true },
-        { prompt: strings.questionB7Q3, labels: scale, required: true },
-        { prompt: strings.questionB7Q4, labels: scale, required: true },
+        {
+          prompt: strings.questionB7Q1,
+          labels: scale,
+          required: true,
+          name: 'B7Q1',
+        },
+        {
+          prompt: strings.questionB7Q2,
+          labels: scale,
+          required: true,
+          name: 'B7Q2',
+        },
+        {
+          prompt: strings.questionB7Q3,
+          labels: scale,
+          required: true,
+          name: 'B7Q3',
+        },
+        {
+          prompt: strings.questionB7Q4,
+          labels: scale,
+          required: true,
+          name: 'B7Q4',
+        },
       ],
     });
   }
@@ -195,10 +335,30 @@ export const generateVviqTimeline = (
       preamble: strings.instructionBlock8,
       button_label: strings.continueButtonLabel,
       questions: [
-        { prompt: strings.questionB8Q1, labels: scale, required: true },
-        { prompt: strings.questionB8Q2, labels: scale, required: true },
-        { prompt: strings.questionB8Q3, labels: scale, required: true },
-        { prompt: strings.questionB8Q4, labels: scale, required: true },
+        {
+          prompt: strings.questionB8Q1,
+          labels: scale,
+          required: true,
+          name: 'B8Q1',
+        },
+        {
+          prompt: strings.questionB8Q2,
+          labels: scale,
+          required: true,
+          name: 'B8Q2',
+        },
+        {
+          prompt: strings.questionB8Q3,
+          labels: scale,
+          required: true,
+          name: 'B8Q3',
+        },
+        {
+          prompt: strings.questionB8Q4,
+          labels: scale,
+          required: true,
+          name: 'B8Q4',
+        },
       ],
     });
   }
