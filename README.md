@@ -106,7 +106,7 @@ $ yarn run build
 To add more languages, two steps are necessary:
 
 1. Create a new _strings_ file under `src/`. Make sure the object structure is exactly the same as in the german and english file. There is a TypeScript type called `Language` in `src/types.ts` which helps you with this process.
-2. Adjust the `generateVviqTimeline()` functin in `src/generateVviqTimeline.js` to respect the newly added language.
+2. Adjust the `generateVviqTimeline()` function in `src/generateVviqTimeline.js` to respect the newly added language.
 
 [1]: https://www.jspsych.org/latest/plugins/html-keyboard-response/
 [2]: https://www.jspsych.org/latest/plugins/survey-likert/
