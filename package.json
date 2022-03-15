@@ -1,6 +1,6 @@
 {
   "name": "@kogpsy/jspsych-vviq",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "main": "dist/jspsych-vviq.js",
   "author": "Robin Bürkli <robuba.jr@gmx.ch>",
   "license": "MIT",
