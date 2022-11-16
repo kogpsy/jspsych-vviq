@@ -36,11 +36,12 @@ By default, the full questionnaire, including the main instruction is generated 
 
 ### Configuration options
 
-The generator function takes three arguments:
+The generator function takes four arguments:
 
-- A `string` specifying the language of the questionnaire items (possible options: `'english'`, `'german'`).
-- An `Array` specifying which item blocks to include (possible options: _an array containing numbers from 1 to 8, like_ `[1,3,4,8]`).
-- A `boolean` specifying whether the main instruction should be included (possible options: `true`, `false`).
+- A `string` specifying the language of the questionnaire items (possible options: `'english'`, `'german'`; default: `'english'`).
+- An `Object` with arbitrary fields which will be added to the trial data (possible options: _an object with arbitrary fields, like_ `{ data_label: 'vviq' }`; default: `undefined`).
+- An `Array` specifying which item blocks to include (possible options: _an array containing numbers from 1 to 8, like_ `[1,3,4,8]`; default: all).
+- A `boolean` specifying whether the main instruction should be included (possible options: `true`, `false`; default: `true`).
 
 ### Styling
 
