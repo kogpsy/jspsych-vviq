@@ -28,6 +28,7 @@ import { stringsGerman } from './strings_german';
  */
 export const generateVviqTimeline = (
   language?: string,
+  data?: { [key: string]: any },
   items?: Array<number>,
   instruction?: boolean
 ) => {
@@ -87,6 +88,7 @@ export const generateVviqTimeline = (
   if (requestedItems.includes(1)) {
     timeline.push({
       type: SurveyLikertPlugin,
+      data: data,
       preamble: strings.instructionBlock1,
       button_label: strings.continueButtonLabel,
       questions: [
@@ -122,6 +124,7 @@ export const generateVviqTimeline = (
   if (requestedItems.includes(2)) {
     timeline.push({
       type: SurveyLikertPlugin,
+      data: data,
       preamble: strings.instructionBlock2,
       button_label: strings.continueButtonLabel,
       questions: [
@@ -157,6 +160,7 @@ export const generateVviqTimeline = (
   if (requestedItems.includes(3)) {
     timeline.push({
       type: SurveyLikertPlugin,
+      data: data,
       preamble: strings.instructionBlock3,
       button_label: strings.continueButtonLabel,
       questions: [
@@ -192,6 +196,7 @@ export const generateVviqTimeline = (
   if (requestedItems.includes(4)) {
     timeline.push({
       type: SurveyLikertPlugin,
+      data: data,
       preamble: strings.instructionBlock4,
       button_label: strings.continueButtonLabel,
       questions: [
@@ -227,6 +232,7 @@ export const generateVviqTimeline = (
   if (requestedItems.includes(5)) {
     timeline.push({
       type: SurveyLikertPlugin,
+      data: data,
       preamble: strings.instructionBlock5,
       button_label: strings.continueButtonLabel,
       questions: [
@@ -262,6 +268,7 @@ export const generateVviqTimeline = (
   if (requestedItems.includes(6)) {
     timeline.push({
       type: SurveyLikertPlugin,
+      data: data,
       preamble: strings.instructionBlock6,
       button_label: strings.continueButtonLabel,
       questions: [
@@ -297,6 +304,7 @@ export const generateVviqTimeline = (
   if (requestedItems.includes(7)) {
     timeline.push({
       type: SurveyLikertPlugin,
+      data: data,
       preamble: strings.instructionBlock7,
       button_label: strings.continueButtonLabel,
       questions: [
@@ -332,6 +340,7 @@ export const generateVviqTimeline = (
   if (requestedItems.includes(8)) {
     timeline.push({
       type: SurveyLikertPlugin,
+      data: data,
       preamble: strings.instructionBlock8,
       button_label: strings.continueButtonLabel,
       questions: [
